@@ -12,8 +12,8 @@ const Button = ({
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
-          : "bg-coral-red text-white border-coral-red"
-      } rounded-full ${fullWidth && "w-full"}`}
+          : "bg-coral-red text-white border-coral-red" 
+      } rounded-full ${fullWidth && "w-full"} hover:scale-110 transition duration-300 ease-in-out`}
     >
       {label}
 
